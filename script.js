@@ -9,6 +9,7 @@ function changeBackground(number) {
   }
   // Reset CSS for body
   body.className = "";
+  //   Turn ON/OFF Background
   switch (number) {
     case "1":
       return previousBackground === "background-1"
