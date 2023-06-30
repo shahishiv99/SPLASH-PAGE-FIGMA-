@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Belanosima&display=swap");
+html {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: "Belanosima", sans-serif;
+  background: linear-gradient(180deg, #fff 0%, #f3f8f7 49.91%, #fff9f5 94.19%);
+}
+.wrapper {
+  margin: auto;
+  position: relative;
+  width: 1440px;
+  height: 1380px;
+}
+
+.title {
+  position: absolute;
+  top: 236px;
+  left: 221px;
+  color: #54575a;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 67.5px;
+  display: flex;
+  width: 458px;
+  flex-direction: column;
+}
+.text {
+  position: absolute;
+  top: 403px;
+  left: 221px;
+  color: #54575a;
+  font-size: 20px;
+  font-family: Futura PT;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  display: flex;
+  width: 394px;
+  flex-direction: column;
+}
+.brand-logo {
+  width: 193px;
+  height: 47.638px;
+
+  position: absolute;
+  left: 221px;
+  top: 50.25px;
+}
+
+.app-store-btn {
+  width: 138.443px;
+  height: 46.278px;
+  position: absolute;
+  top: 531px;
+  left: 221px;
+}
+
+.app-store-btn img {
+  width: 138.443px;
+  height: 46.278px;
+}
+
+.google-play-btn {
+  width: 156.186px;
+  height: 46.277px;
+  position: absolute;
+  top: 531px;
+  left: 381.81px;
+}
+.google-play-btn img {
+  width: 156.186px;
+  height: 46.277px;
+}
+.main-image-container {
+  width: 535.717px;
+  height: 309.27px;
+
+  position: absolute;
+  top: 229.73px;
+  left: 683.28px;
+}
+.main-image-container img {
+  height: 411.152px;
+}
+
+.profile-image {
+  width: 224px;
+  height: 444px;
+
+  position: absolute;
+  top: 686px;
+  left: 737px;
+}
+.product-image {
+  width: 224px;
+  height: 222px;
+
+  position: absolute;
+  top: 1157px;
+  left: 737px;
+}
+.orders-image {
+  position: absolute;
+  top: 913px;
+  left: 479px;
+  width: 224px;
+  height: 470px;
+}
+.cart-image {
+  width: 224px;
+  height: 222px;
+
+  position: absolute;
+  top: 1157px;
+  left: 221px;
+}
+
+.home-image {
+  position: absolute;
+  top: 908px;
+  left: 995px;
+  width: 224px;
+  height: 470px;
+}
+
+/* Background Toggles */
+.background-toggles {
+  position: absolute;
+  top: 70px;
+  right: 150px;
+  display: flex;
+}
+
+.background-toggles > div {
+  height: 25px;
+  width: 25px;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* Backgrounds */
+.background-1 {
+  background: #5433ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #a5fecb,
+    #20bdff,
+    #5433ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #a5fecb,
+    #20bdff,
+    #5433ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.background-2 {
+  background: #77a1d3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #e684ae,
+    #79cbca,
+    #77a1d3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #e684ae,
+    #79cbca,
+    #77a1d3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.background-3 {
+  background: hsla(211, 66%, 87%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(211, 66%, 87%, 1) 0%,
+    hsla(348, 67%, 88%, 1) 50%,
+    hsla(272, 26%, 72%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(211, 66%, 87%, 1) 0%,
+    hsla(348, 67%, 88%, 1) 50%,
+    hsla(272, 26%, 72%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(211, 66%, 87%, 1) 0%,
+    hsla(348, 67%, 88%, 1) 50%,
+    hsla(272, 26%, 72%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C9DEF4", endColorstr="#F5CCD4", GradientType=1 );
+}
